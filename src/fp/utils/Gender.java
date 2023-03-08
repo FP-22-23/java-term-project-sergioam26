@@ -1,5 +1,5 @@
 package fp.utils;
 
-public enum Gender {
+public enum Gender {M,F
 
 }
