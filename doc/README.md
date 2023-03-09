@@ -9,5 +9,5 @@ Folders Structure:
 	/data: Contains the project dataset.
 		dataset.csv: csv file containing data from different patient of a clinic.
 
-Dataser Structure:
-
+Dataset Structure:
+	m
