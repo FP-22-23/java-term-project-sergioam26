@@ -8,7 +8,7 @@ public class Checkers {
 	 * @param condicion
 	 *     ExpresiÃ³n booleana que ha de cumplirse para que no se eleve una excepciÃ³n
 	 * @throws IllegalArgumentException si no se cumple la condiciÃ³n
-	 *  
+	 *   
 	 */
 	public static void check(String textoRestriccion, Boolean condicion) {
 		if (!condicion) {

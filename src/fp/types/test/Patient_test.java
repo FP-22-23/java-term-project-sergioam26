@@ -12,7 +12,7 @@ public class Patient_test {
 	public static void viewPatient(Patient p) {
 		System.out.println(p);	
 			
-
+		
 	}
 	
 	public static void testConstructor1(Integer hadm_id, Gender gender, LocalDate firstRevision, String admitLocation,
