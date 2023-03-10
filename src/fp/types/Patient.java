@@ -144,7 +144,7 @@ public class Patient implements Comparable<Patient> {
 		if (getClass() != obj.getClass())
 			return false;
 		Patient other = (Patient) obj;
-		return Objects.equals(firstRevision, other.firstRevision) && gender == other.gender
+		return Objects.equals(firstRevision, other.firstRevision)
 				&& Objects.equals(hadm_id, other.hadm_id);
 	}
 	@Override
@@ -162,10 +162,8 @@ public class Patient implements Comparable<Patient> {
 		}
 		r = getHadm_id().compareTo(p.getHadm_id());	
 		if (r == 0) {
-			r = getGender().compareTo(p.getGender());
-			if (r == 0) {
+			
 				r = getFirstRevision().compareTo(p.getFirstRevision());
-			}
 		}
 		return r;
 	}
